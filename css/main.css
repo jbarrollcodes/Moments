@@ -1,0 +1,368 @@
+/* USING CUSTOM FONTS */
+
+@font-face { font-family: "helvetica"; src: url("../fonts/helvetica.otf"); }
+@font-face { font-family: "helvetica"; src: url("../fonts/helvetica.otf"); }
+@font-face { font-family: "helvetica"; src: url("../fonts/helvetica.otf"); }
+
+h1 { font: normal 36px "helvetica"; }
+h2 { font: normal 26px "helvetica"; }
+h3 { font: normal 16px "helvetica"; }
+
+
+/* defaults so we can see what we're doing */
+/* #foreground { background: rgba(0,255,0,0.2); }*/
+/* #background { background: rgba(0,0,255,0.2); }*/
+
+
+/* elegantly fade in our content once everything has loaded */
+body { background: #3A5D9E; }
+.overlapper { display: none; }
+
+
+/* ----------------------------------------
+	Global Styles
+---------------------------------------- */
+
+.circle { border-radius: 50%; }
+
+
+/* ----------------------------------------
+	Page 01
+---------------------------------------- */
+
+#page-01 #background {
+	background: url('../assets/email.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+#page-01 .text {
+	position: absolute;
+	margin: auto;
+	height: 15em;
+	top: 0; left: 45%; right: 0; bottom: 0;
+	/*text-align: left;*/
+	font-size: 16px;
+	font-family: helvetica;
+	line-height: 20px;
+	
+	
+}
+
+
+
+
+
+
+
+
+@-webkit-keyframes example {
+    0%   {top:50px;}
+    25%  {top:10px;}
+    50%	 {top:50px;}
+    75%  {top:10px;}
+    100%  {top:50px;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+	0%   {top:50px;}
+    25%  {top:10px;}
+    50%	 {top:50px;}
+    75%  {top:10px;}
+    100%  {top:50px;}
+
+}
+
+
+
+
+
+@-webkit-keyframes example {
+    0%   {top:50px;}
+    25%  {top:10px;}
+    50%	 {top:50px;}
+    75%  {top:10px;}
+    100%  {top:50px;}
+
+}
+
+/* Standard syntax */
+@keyframes example {
+	0%   {top:50px;}
+    25%  {top:10px;}
+    50%	 {top:50px;}
+    75%  {top:10px;}
+    100%  {top:50px;}
+
+}
+
+#page-02 #background {
+	background: url('../assets/fish.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-03 #background {
+	background: url('../assets/sweetpea.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-04 #background {
+	background: url('../assets/road.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-05 #background {
+	background: url('../assets/billy.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#page-06 #background {
+	background: url('../assets/corona.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-07 #background {
+	background: url('../assets/flying.gif');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-08 #background {
+	background: url('../assets/laptop.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-09 #background {
+	background: url('../assets/yellowpress.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-10 #background {
+	background: url('../assets/door.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ruffy{
+	width: 300px;
+	top: 400px;
+	position: absolute;
+	left: 400px;
+}
+
+#page-11 #background {
+	background: url('../assets/trophee.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-12 #background {
+	background: url('../assets/gps.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#page-13 #background {
+	background: url('../assets/nyc.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#page-14 #background {
+	background: url('../assets/tvscreen.png');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#page-15 #background {
+	background: url('../assets/ruffy.svg');
+	width: 500px;
+	background-repeat: no-repeat;
+	margin: auto;
+
+    
+}
+
+#ruffybonus{
+	width: 500px;
+	position: absolute;
+	top: 200px;
+}
+
+#ruffybonus2{
+	width: 500px;
+	position: absolute;
+	left: 800px;
+	top: 200px;
+}
+#page-16 #background {
+	background: url('../assets/nyc.svg');
+	width: 500px;
+	background-repeat: no-repeat;
+	margin: auto;
+
+    
+}
+#page-17 #background {
+	background: url('../assets/dinosaurland.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-18 #background {
+	background: url('../assets/sweetpea2.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-19 #background {
+	background: url('../assets/flower2.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#page-20 #background{
+	background: url('../assets/dogbaby.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#page-21 #background {
+	background: url('../assets/nyc.svg');
+	width: 500px;
+	background-repeat: no-repeat;
+	margin: auto;
+
+}
+
+#rats{
+	width: 500px;
+	position: absolute;
+	
+	
+}
+
+#page-22 #background{
+	background: url('../assets/room.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#page-23 #background {
+	background: url('../assets/footrock.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#page-24 #background {
+	background: url('../assets/ruffy2.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@-webkit-keyframes move {
+    0%   {left:100px;}
+    25%  {left:0px;}
+    50%	 {left:100px;}
+    75%  {left:0px;}
+    100% {left:100px;}
+
+}
+
+/* Standard syntax */
+@keyframes move {
+	0%   {left:100px;}
+    25%  {left:0px;}
+    50%	 {left:100px;}
+    75%  {left:0px;}
+    100% {left:100px;}
+
+}
+    
+
+
+#page-25 #background {
+	background: url('../assets/birdcage.svg');
+	background-size: cover;
+	background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
